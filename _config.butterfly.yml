@@ -711,7 +711,7 @@ umami_analytics:
     site_pv: true
     page_pv: true
     # Umami Cloud (API key) / self-hosted Umami (token)
-    token:
+    token: Oc9phjEtSMipOksG9Yk3BVqkQBMBUP09
 
 # --------------------------------------
 # Advertisement
