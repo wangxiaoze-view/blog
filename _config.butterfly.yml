@@ -17,10 +17,18 @@ nav:
   fixed: false
 
 menu:
-  # Home: / || fas fa-home
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
+  首页: / || fas fa-home
+  页面||fas fa-list:
+    归档: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
+  项目||fas fa-list:
+    归档: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
+  关于||fas fa-list:
+    关于: /about/ || fas fa-heart
+    网站: /about/ || fas fa-heart
 
 # --------------------------------------
 # Code Blocks Settings
@@ -52,39 +60,39 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+favicon: https://wangxiaoze-view.github.io/picx-images-hosting/images/wechat_au.jpeg
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: https://wangxiaoze-view.github.io/picx-images-hosting/images/wechat_au.jpeg
   effect: false
 
 # Disable all banner images
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img:  https://wangxiaoze-view.github.io/picx-images-hosting/images/default_top_img_2.webp
 
 # The banner image of index page
-index_img:
+index_img: https://wangxiaoze-view.github.io/picx-images-hosting/images/default_top_img.webp
 
 # The banner image of archive page
-archive_img:
+archive_img: https://wangxiaoze-view.github.io/picx-images-hosting/images/default_top_img_2.webp
 
 # Note: tag page, not tags page
-tag_img:
+tag_img: https://wangxiaoze-view.github.io/picx-images-hosting/images/default_top_img_1.webp
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
 #  - tag name: xxxxx
-tag_per_img:
+tag_per_img: https://wangxiaoze-view.github.io/picx-images-hosting/images/default_top_img_1.webp
 
 # Note: category page, not categories page
-category_img:
+category_img: https://wangxiaoze-view.github.io/picx-images-hosting/images/default_top_img_3.webp
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
 #  - category name: xxxxx
-category_per_img:
+category_per_img: https://wangxiaoze-view.github.io/picx-images-hosting/images/default_top_img_3.webp
 
 # The background image of footer
 footer_img: false
@@ -100,7 +108,13 @@ cover:
   archives_enable: true
   # When cover is not set, the default cover is displayed
   default_cover:
-    # - xxx.jpg
+    - https://wangxiaoze-view.github.io/picx-images-hosting/images/default_top_img_1.webp
+    - https://wangxiaoze-view.github.io/picx-images-hosting/images/default_top_img_2.webp
+    - https://wangxiaoze-view.github.io/picx-images-hosting/images/default_top_img_3.webp
+    - https://wangxiaoze-view.github.io/picx-images-hosting/images/default_top_img_4.jpeg
+    - https://wangxiaoze-view.github.io/picx-images-hosting/images/default_top_img_5.jpeg
+    - https://wangxiaoze-view.github.io/picx-images-hosting/images/default_top_img_6.jpeg
+    - https://wangxiaoze-view.github.io/picx-images-hosting/images/default_top_img.webp
 
 # Replace Broken Images
 error_img:
@@ -147,7 +161,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -163,6 +177,7 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - 用代码表达言语的魅力，用代码书写山河的壮丽
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -209,12 +224,12 @@ reward:
   enable: false
   text:
   QR_code:
-    # - img: /img/wechat.jpg
-    #   link:
-    #   text: wechat
-    # - img: /img/alipay.jpg
-    #   link:
-    #   text: alipay
+    - img: https://wangxiaoze-view.github.io/picx-images-hosting/images/wx_pay.png
+      link:
+      text: wechat
+    - img: https://wangxiaoze-view.github.io/picx-images-hosting/images/zfb_pay.png
+      link:
+      text: alipay
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -244,7 +259,7 @@ noticeOutdate:
   # Style: simple / flat
   style: flat
   # When will it be shown
-  limit_day: 365
+  limit_day: 500
   # Position: top / bottom
   position: top
   message_prev: It has been
@@ -256,7 +271,7 @@ noticeOutdate:
 footer:
   owner:
     enable: true
-    since: 2019
+    since: 2023
   custom_text:
   # Copyright of theme and framework
   copyright: true
@@ -284,10 +299,10 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/wangxiaoze-view
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: Welcome to Wang Xiaoze's blog
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -387,7 +402,7 @@ darkmode:
   end:
 
 # Show scroll percent in scroll-to-top button
-rightside_scroll_percent: false
+rightside_scroll_percent: true
 
 # Don't modify the following settings unless you know how they work
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -415,12 +430,12 @@ copy:
   enable: true
   # Add the copyright information after copied content
   copyright:
-    enable: false
+    enable: true
     limit_count: 150
 
 # Need to install the hexo-wordcount plugin
 wordcount:
-  enable: false
+  enable: true
   # Display the word count of the article in post meta
   post_wordcount: true
   # Display the time to read the article in post meta
@@ -484,6 +499,7 @@ search:
     CDN:
 
   # Docsearch
+  # TODO: 待添加
   # https://docsearch.algolia.com/
   docsearch:
     appId:
@@ -664,12 +680,13 @@ tidio:
 
 # https://crisp.chat/en/
 crisp:
-  website_id:
+  website_id: ef9f9638-269b-4534-a7f2-3adee9d86323
 
 # --------------------------------------
 # Analysis
 # --------------------------------------
 
+# TODO: 待添加
 # https://tongji.baidu.com/web/welcome/login
 baidu_analytics:
 
@@ -702,7 +719,7 @@ umami_analytics:
 
 # Google Adsense
 google_adsense:
-  enable: false
+  enable: true
   auto_ads: true
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client:
@@ -772,7 +789,7 @@ mask:
 
 # Loading Animation
 preloader:
-  enable: false
+  enable: true
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
@@ -788,7 +805,7 @@ display_mode: light
 
 # Configuration for beautifying the content of the article
 beautify:
-  enable: false
+  enable: true
   # Specify the field to beautify (site or post)
   field: post
   # Specify the icon to be used as a prefix for the title, such as '\f0c1'
@@ -819,7 +836,7 @@ hr_icon:
 # Typewriter Effect
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true
   shake: true
   mobile: false
@@ -830,7 +847,7 @@ activate_power_mode:
 # canvas_ribbon
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   # The size of ribbon
   size: 150
   # The opacity of ribbon (0 ~ 1)
@@ -841,7 +858,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon
 canvas_fluttering_ribbon:
-  enable: false
+  enable: true
   mobile: false
 
 # canvas_nest
@@ -866,16 +883,20 @@ fireworks:
 
 # Mouse click effects: Heart symbol
 click_heart:
-  enable: false
+  enable: true
   mobile: false
 
 # Mouse click effects: words
 clickShowText:
   enable: false
   text:
-    # - I
-    # - LOVE
-    # - YOU
+    - Html
+    - Css
+    - JavaScript
+    - Java
+    - Node
+    - Flutter
+    - Dart
   fontSize: 15px
   random: false
   mobile: false
@@ -906,13 +927,13 @@ series:
 # ABCJS - The ABC Music Notation Plugin
 # https://github.com/paulrosen/abcjs
 abcjs:
-  enable: false
+  enable: true
   per_page: true
 
 # Mermaid
 # https://github.com/mermaid-js/mermaid
 mermaid:
-  enable: false
+  enable: true
   # Write Mermaid diagrams using code blocks
   code_write: false
   # built-in themes: default / forest / dark / neutral
@@ -973,7 +994,7 @@ aplayerInject:
 # https://github.com/polonel/SnackBar
 # position: top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
+  enable: true
   position: bottom-left
   # The background color of Toast Notification in light mode and dark mode
   bg_light: '#49b1f5'
@@ -986,7 +1007,7 @@ instantpage: false
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   # Specify the field to use lazyload (site or post)
   field: site
   placeholder:
