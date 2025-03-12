@@ -688,10 +688,10 @@ crisp:
 
 # TODO: 待添加
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics:
+baidu_analytics: da07a284a6d9edb2782b563c4763bd82
 
 # https://analytics.google.com/analytics/web/
-google_analytics:
+google_analytics: G-XMTLPR4SW4
 
 # https://www.cloudflare.com/zh-tw/web-analytics/
 cloudflare_analytics:
@@ -701,15 +701,15 @@ microsoft_clarity:
 
 # https://umami.is/
 umami_analytics:
-  enable: false
+  enable: true
   # For self-hosted setups, configure the hostname of the Umami instance
   serverURL:
-  website_id:
+  website_id: 63e283e0-9946-4f12-a732-c0e74a121289
   option:
   UV_PV:
-    site_uv: false
-    site_pv: false
-    page_pv: false
+    site_uv: true
+    site_pv: true
+    page_pv: true
     # Umami Cloud (API key) / self-hosted Umami (token)
     token:
 
