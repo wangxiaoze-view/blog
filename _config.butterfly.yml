@@ -498,8 +498,8 @@ search:
   # Docsearch
   # https://docsearch.algolia.com/
   docsearch:
-    appId: GMQ3BEBZ38
-    apiKey: 6d67c7b74ee56f3da303f58403e8c516
+    appId: Q09MW9A78N
+    apiKey: 745d8eeed86a20f5164e0a44a8195a19
     indexName: wangxiaoze
     option:
 
