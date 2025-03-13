@@ -496,12 +496,11 @@ search:
     CDN:
 
   # Docsearch
-  # TODO: 待添加
   # https://docsearch.algolia.com/
   docsearch:
-    appId:
-    apiKey:
-    indexName:
+    appId: GMQ3BEBZ38
+    apiKey: 6d67c7b74ee56f3da303f58403e8c516
+    indexName: wangxiaoze
     option:
 
 # --------------------------------------
