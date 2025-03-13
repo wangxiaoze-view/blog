@@ -24,7 +24,7 @@ tags:
 
 首先，你需要申请`token`， 如下图所示：
 
-![x](https://cn-sy1.rains3.com/cdn/images/image.7p3nljb7yw.webp)
+![x](https://wangxiaoze-view.github.io/picx-images-hosting/images/image.7p3nljb7yw.webp)
 
 申请成功之后不要刷新页面，因为刷新了页面`token`就没了，`token`的格式如`ghp_xxxxxxx`;
 

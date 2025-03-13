@@ -118,7 +118,7 @@ pm2 reload  [AppName]
 pm2 list
 ```
 
-![x](https://cn-sy1.rains3.com/cdn/images/20211112161839.4qralqpkna.webp)
+![x](https://wangxiaoze-view.github.io/picx-images-hosting/images/20211112161839.4qralqpkna.webp)
 
 ### 显示每个应用程序占用情况
 
@@ -126,7 +126,7 @@ pm2 list
 pm2 monit
 ```
 
-![x](https://cn-sy1.rains3.com/cdn/images/20211112162030.5mns170i11.webp)
+![x](https://wangxiaoze-view.github.io/picx-images-hosting/images/20211112162030.5mns170i11.webp)
 
 ### 显示应用程序所有信息
 
@@ -138,7 +138,7 @@ pm2 show  [id]
 pm2 show  [AppName]
 ```
 
-![x](https://cn-sy1.rains3.com/cdn/images/20211112162232.64dtps30al.webp)
+![x](https://wangxiaoze-view.github.io/picx-images-hosting/images/20211112162232.64dtps30al.webp)
 
 ### 日志查看
 
@@ -153,7 +153,7 @@ pm2 logs
 pm2 logs  [AppName]
 ```
 
-![x](https://cn-sy1.rains3.com/cdn/images/20211112161915.2h8a298d3g.webp)
+![x](https://wangxiaoze-view.github.io/picx-images-hosting/images/20211112161915.2h8a298d3g.webp)
 
 ## 参考资料
 
