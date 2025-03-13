@@ -19,7 +19,7 @@ tags:
 > 这是一个用于快速入手上门的`vue`后台管理系统, 该应用用到最新的技术`vue3, ts, rsbuild`等；该项目还使用了**辅助函数 functional-helpers-lib 工具**
 
 - [github](https://github.com/wangxiaoze-view/sim-admin)
-- [网站预览](https://sim-admin.wangzevw.com)
+- [网站预览](https://wangxiaoze-view.github.io/sim-admin/)
 
 ### 辅助函数 functional-helpers-lib
 
@@ -48,14 +48,14 @@ tags:
 
 > 资源放在 github，可能首次访问会慢一点
 
-- [地址](https://web-demos.wangzevw.com)
+- [地址](https://wangxiaoze-view.github.io/web-demos/#button)
 
 ### 桌面端开发工具 dev-tools
 
 > 使用 rust + vue 搭建的一款桌面端的开发工具； 目前不开源，等版本稳定之后在开源；
 
-- [mac0.0.1 版本](https://www.wangzevw.com/cdn-file/app/dev-tools/0.0.1/dev-tools_0.0.1_aarch64.dmg)
-- [windows0.0.1 版本](https://www.wangzevw.com/cdn-file/app/dev-tools/0.0.1/dev-tools_0.0.1_x64-setup.exe)
+- [mac0.0.1 版本](https://wangxiaoze-view.github.io/picx-images-hosting/app/dev-tools/0.0.1/dev-tools_0.0.1_aarch64.dmg)
+- [windows0.0.1 版本](https://wangxiaoze-view.github.io/picx-images-hosting/app/dev-tools/0.0.1/dev-tools_0.0.1_x64-setup.exe)
 - [文档](/project/04_桌面端开发工具/01_项目介绍)
 
 ## 不再进行维护的项目
@@ -65,7 +65,6 @@ tags:
 > 个人开发的一款超简单的工具库
 
 - [Github](https://github.com/wangxiaoze-view/utilstools)
-- [文档说明](https://docs-tools.wangzevw.com/)
 
 ### 项目模板 <Badge type="warning" text="不再进行开发更新/已废弃⚠️" />
 
