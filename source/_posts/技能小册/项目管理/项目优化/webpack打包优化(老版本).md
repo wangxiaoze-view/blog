@@ -464,7 +464,7 @@ module.exports = vueConfig;
 
 ### 打包之后体验 1s 打开项目
 
-![x](https://www.wangzevw.com/cdn-file/images/20211112181708.7zqeietpgn.webp)
+![x](https://cn-sy1.rains3.com/cdn/images/20211112181708.7zqeietpgn.webp)
 
 ## 参考资料
 
