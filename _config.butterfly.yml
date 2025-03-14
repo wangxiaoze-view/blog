@@ -496,6 +496,7 @@ search:
     CDN:
 
   # Docsearch
+  # TODO: 后期更新
   # https://docsearch.algolia.com/
   docsearch:
     appId: Q09MW9A78N
@@ -683,10 +684,10 @@ crisp:
 # --------------------------------------
 
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics: da07a284a6d9edb2782b563c4763bd82
+baidu_analytics: cdfe57230f95c068498c362038b84153
 
 # https://analytics.google.com/analytics/web/
-google_analytics: G-XMTLPR4SW4
+google_analytics: G-KGRH7K8KQ6
 
 # https://www.cloudflare.com/zh-tw/web-analytics/
 cloudflare_analytics:
