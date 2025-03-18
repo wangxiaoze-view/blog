@@ -2,6 +2,7 @@
 title: Nest-入手Demo
 abbrlink: 89a2365c
 date: 2024-11-08 09:05:01
+series: Nest入门
 categories:
   - 技能小册
 tags:
