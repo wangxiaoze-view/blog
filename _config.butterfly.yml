@@ -25,8 +25,7 @@ menu:
   我的项目: /posts/a2c247c4 || fas fa-diagram-project
   关于||fas fa-eject:
     关于博主: /posts/3317594d || fas fa-address-card
-    升级日志: /posts/8aea48ee || fas fa-slack
-
+    升级日志: /posts/8aea48ee || fas fa-code-fork
 # --------------------------------------
 # Code Blocks Settings
 # --------------------------------------
