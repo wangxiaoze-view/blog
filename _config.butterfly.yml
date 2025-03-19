@@ -495,12 +495,11 @@ search:
     CDN:
 
   # Docsearch
-  # TODO: 后期更新
   # https://docsearch.algolia.com/
   docsearch:
-    appId: Q09MW9A78N
-    apiKey: 745d8eeed86a20f5164e0a44a8195a19
-    indexName: wangzevw
+    appId: WYM4VYHP61
+    apiKey: fa46b007376cf83c7777cda1919b4de2
+    indexName: wangxiaoze
     option:
 
 # --------------------------------------
