@@ -128,3 +128,9 @@ nofollow:
   enable: true
   field: site
   exclude:
+
+# https://github.com/wzpan/hexo-generator-search
+search:
+  path: search.xml
+  field: post
+  content: true
