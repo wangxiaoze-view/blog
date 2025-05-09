@@ -1,79 +1,64 @@
 ---
-title: 项目
+title: 项目文档
 abbrlink: a2c247c4
 date: 2024-10-08 09:05:01
+series: 项目文档
 categories:
   - 我的项目
 tags:
   - 项目
 ---
 
-# 个人项目
+该专题是个人空余时间开发的一些小项目，接下来简单说明一下涉及的项目方向：
 
-> 本人空余时间闲暇，开发一些小工具以及项目;
+1. 博客，知识库用于记录日常工作，生活。
+2. pc 端的中后台管理系统。
+3. 桌面端开发工具，可视化 code 操作管理面板。
+4. 移动端应用：鸿蒙，Flutter，uniapp。
+5. 衍生的一些应用，如远程组件，函数辅助插件等等。
 
-## 还在使用的项目
+当然，后期会不定时去开发/更新其应用程序。
 
-### sim-admin <Badge type="danger" text="最新项目" />
+## 项目列表
 
-> 这是一个用于快速入手上门的`vue`后台管理系统, 该应用用到最新的技术`vue3, ts, rsbuild`等；该项目还使用了**辅助函数 functional-helpers-lib 工具**
+1. [项目概览](https://wangxiaoze-view.github.io)
+2. [博客](https://wangxiaoze-view.github.io/blog/)
+3. [知识库](https://wangxiaoze-view.github.io/knowledge-base/)
+4. [中后台管理系统](https://wangxiaoze-view.github.io/sim-admin/)
 
-- [github](https://github.com/wangxiaoze-view/sim-admin)
-- [网站预览](https://wangxiaoze-view.github.io/sim-admin/)
+   - [github](https://github.com/wangxiaoze-view/sim-admin)
 
-### 辅助函数 functional-helpers-lib
+5. [在线代码编辑器](https://wangxiaoze-view.github.io/playground/)
 
-> 就是一个用于常规的`utils, hooks`的函数辅助插件
+   - [github](https://github.com/wangxiaoze-view/playground)
 
-- [github](https://github.com/wangxiaoze-view/functional-helpers-lib)
+6. [前端小案例](https://wangxiaoze-view.github.io/web-demos/)
 
-### log-reporting <Badge type="danger" text="推荐" />
+   - [github](https://github.com/wangxiaoze-view/web-demos)
 
-这款工具呢顾名思义就是日志上报，就是搜集客户端的一些告警报错日志到服务端，从而在服务端进行数据分析征集成客户端可视化数据面板；
+7. [桌面端可视化工具](blog/posts/e7823bf2)
 
-目前该工具分为俩个版本：
+   - [github](https://github.com/wangxiaoze-view/dev-tools)
 
-1. [log-reporting](https://github.com/wangxiaoze-view/log-repeorting/tree/v1)
-   > 该版本为低版本，支支持部分功能，目前仅支持日志上报，视屏录制，但是不支持 `pv与曝光统计`
-   - [Github](https://github.com/wangxiaoze-view/log-repeorting/tree/v1)
+8. [functional-helpers-lib](https://github.com/wangxiaoze-view/functional-helpers-lib)
+
+9. [log-reporting-日志上报服务 V1.0.0](/blog/posts/59c233b4)
+
+   - [github](https://github.com/wangxiaoze-view/log-repeorting/tree/v1)
    - [npm](https://www.npmjs.com/package/log-reporting)
-   - [文档说明](/project/02_日志上报插件/v1)
-2. [@log-reporting/core](https://github.com/wangxiaoze-view/log-repeorting)
-   > 该版本为全新版本，与 `log-reporting` 完全不同， 映射以及使用完全不一样; 在原有的基础上完全支持 `pv与曝光统计`； 在原有的基础上对资源以及性能监控进行优化; 当然有内置的 `logger, types`插件；
-   - [Github](https://github.com/wangxiaoze-view/log-repeorting/tree/main)
-   - [npm](https://www.npmjs.com/package/@log-reporting/core)
-   - [文档说明](/project/02_日志上报插件/v2)
+   - [文档说明](/blog/posts/59c233b4)
 
-### demos
+10. [@log-reporting/core-日志上报服务 V2.0.0](/blog/posts/7407fa48)
 
-> 资源放在 github，可能首次访问会慢一点
+    - [Github](https://github.com/wangxiaoze-view/log-repeorting/tree/main)
+    - [npm](https://www.npmjs.com/package/@log-reporting/core)
+    - [文档说明](/blog/posts/7407fa48)
 
-- [地址](https://wangxiaoze-view.github.io/web-demos/#button)
+11. [一键代码拉取项目模板- 已废弃 ⚠️](/blog/posts/1fa3a704)
+12. [wxzUtils- 已废弃 ⚠️](https://github.com/wangxiaoze-view/utilstools)
+13. [HarmonyOs-App- 已废弃 ⚠️](https://github.com/wangxiaoze-view/HarmonyOs-App)
 
-### 桌面端开发工具 dev-tools
+## 项目计划-看个人事件
 
-> 使用 rust + vue 搭建的一款桌面端的开发工具； 目前不开源，等版本稳定之后在开源；
-
-- [mac0.0.1 版本](https://wangxiaoze-view.github.io/picx-images-hosting/app/dev-tools/0.0.1/dev-tools_0.0.1_aarch64.dmg)
-- [windows0.0.1 版本](https://wangxiaoze-view.github.io/picx-images-hosting/app/dev-tools/0.0.1/dev-tools_0.0.1_x64-setup.exe)
-- [文档](/project/04_桌面端开发工具/01_项目介绍)
-
-## 不再进行维护的项目
-
-### wxzUtils
-
-> 个人开发的一款超简单的工具库
-
-- [Github](https://github.com/wangxiaoze-view/utilstools)
-
-### 项目模板 <Badge type="warning" text="不再进行开发更新/已废弃⚠️" />
-
-> 为了避免模板项目重复开发, 统一使用模板项目， 当然包含多个设备
-
-- [文档说明](/project/03_一键代码拉取项目模板/如何使用)
-
-### HarmonyOs-App
-
-> 这是一款鸿蒙 App, 当然不会涉及到业务逻辑，仅仅是布局而已；
-
-- [Github](https://github.com/wangxiaoze-view/HarmonyOs-App)
+1. flutter-App
+2. uni-app
